@@ -1,6 +1,7 @@
 import ToDoListImg from "@/public/todolist.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { BsFiletypeHtml } from "react-icons/bs";
 import { LuGraduationCap } from "react-icons/lu";
 import ThreadAppImg from "@/public/threadapp.png";
 import DailyJournalImg from "@/public/dailyjournal.png";
@@ -35,68 +36,62 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Student",
-    location: "Indian Institute of Information Technology, Nagpur",
-    description:
-      "I graduated from IIIT Nagpur in 2024 with a B.Tech in Electronics and Communication Engineering. During my studies, I built a strong foundation in problem-solving, software development, and system design, focusing on real-world applications and innovative solutions.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Dec 2020 - May 2024",
-  },
-  {
-    title: "MERN Stack Intern",
+    title: "Frontend Developer",
     location: "Remote",
     description:
-      "I worked as a MERN Stack Intern at Pixel Stitch, where I developed their website from scratch. I focused on building a responsive and scalable platform, ensuring a seamless user experience with modern web technologies.",
+      "I worked as a Frontend Developer Intern at Pixel Stitch, where I ensured a seamless user experience using modern web technologies. I handled UI-related bugs and errors, and continuously updated the user interface to enhance performance and usability",
     icon: React.createElement(FaReact),
     date: "Feb 2024 - May 2024",
   },
   {
-    title: "Associate Software Engineer",
-    location: "Noida, UP",
+    title: "Frontend Developer",
+    location: "Howrah, West Bengal",
     description:
-      "I worked as an Associate Software Developer at CredFlow, where I developed the Company Report feature, allowing users to check reports via GST. I later revamped it, leading to a 40% increase in user retention through improved UX and performance.",
-    icon: React.createElement(CgWorkAlt),
-    date: "July 2024 - Jan 2025",
+      "I worked as a Frontend Developer Intern at Cv Dragion India, where I developed their website from scratch. I focused on building a responsive and scalable platform, ensuring a seamless user experience with modern web technologies.",
+    icon: React.createElement(FaReact),
+    date: "Dec 2024 - May 2025",
+  },
+
+  {
+    title: "HTML Developer",
+    location: "Freelancer",
+    description:
+      "I worked as an HTML Developer at Zorcha, where I built website templates from scratch by exactly replicating designs provided in Canva. I focused on creating responsive and scalable layouts to ensure a seamless user experience using modern web technologies.",
+    icon: React.createElement(BsFiletypeHtml),
+    date: "Jun 2025 - July 2025",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Task-Nest App (Notion-Clone)",
+    title: "Url Shortner",
     description:
-      "Inspired by Notion, it offers customizable workspaces and responsive design for seamless Notes organization.",
-    tags: [
-      "Next.js",
-      "Typescript",
-      "Convex",
-      "Client",
-      "Tailwind-CSS",
-      "Shadcn-ui",
-      "Blocknote",
-    ],
-    imageUrl: TaskNest,
-    link: "https://task-nest-willium.vercel.app/",
+      "A sleek and responsive URL shortener that simplifies link management with real-time generation, custom aliases, and click tracking. Designed for efficiency and a clean user experience.",
+    tags: ["Node", "Mongodb", "Express", "Postman", "Convex"],
+    // imageUrl: TaskNest,
+    // link: "https://task-nest-willium.vercel.app/",
   },
   {
-    title: "DAILY JOURNAL WEB APP",
+    title: "To-Do List",
     description:
-      "Capture daily moments: streamlined, reflective, private, accessible, user-friendly journaling web app.",
-    tags: ["Node.js", "Express.js", "MongoDB", "EJS"],
-    imageUrl: DailyJournalImg,
-    link: "https://github.com/Williumtiwari/DailyReflect",
+      "Boost productivity with a sleek MERN-powered to-do list app featuring real-time task management, intuitive UI, and persistent storage. Designed for speed, clarity, and ease of use.",
+    tags: ["Node.js", "Express.js", "MongoDB"],
+    // imageUrl: DailyJournalImg,
+    link: "https://todo-list-czip.vercel.app/",
   },
   {
-    title: "Threads Web App",
+    title: "WeatherApp",
     description:
-      "Instagram's Threads Clone: Share text, join conversations, multimedia, interoperable, future-focused social app.",
-    tags: ["Next.js", "Typescript", "MongoDB", "Tailwind-CSS", "Client"],
+      "Real-time, location-based weather app with accurate forecasts, sleek UI, and smooth user experience.",
+    tags: ["React.js", "CSS", "Tailwind CSS", "Weather API", "Client-side"],
     imageUrl: ThreadAppImg,
-    link: "https://threads-clone-willium.vercel.app/",
+    link: "https://weatherapp-bice-three.vercel.app/",
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
+  "Postman",
   "CSS",
   "JavaScript",
   "TypeScript",
@@ -108,10 +103,8 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "Express",
-  "C/C++",
   "Bootstrap",
   "APIs",
-  "Framer Motion",
   "DSA",
   "Convex",
   "Client",
