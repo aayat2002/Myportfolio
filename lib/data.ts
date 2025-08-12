@@ -84,7 +84,7 @@ export const projectsData = [
     description:
       "Real-time, location-based weather app with accurate forecasts, sleek UI, and smooth user experience.",
     tags: ["React.js", "CSS", "Tailwind CSS", "Weather API", "Client-side"],
-    imageUrl: ThreadAppImg,
+    // imageUrl: ThreadAppImg,
     link: "https://weatherapp-bice-three.vercel.app/",
   },
 ] as const;
