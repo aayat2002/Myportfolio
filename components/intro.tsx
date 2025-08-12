@@ -31,8 +31,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src=""
-              alt="Willium portrait"
+              src="/avatar.png"
+              alt="Sadqua portrait"
               width="192"
               height="192"
               quality="95"
