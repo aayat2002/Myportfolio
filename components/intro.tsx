@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/avatar.png"
+              src="/Myavatar.png"
               alt="Sadqua portrait"
               width="192"
               height="192"
