@@ -10,8 +10,8 @@ import Preloader from "./animation/preloader";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "sadqua | Personal Portfolio",
-  description: "sadqua is a frontend developer.",
+  title: "sadqua-Portfolio",
+  description: "Sadqua is a frontend developer.",
 };
 
 export default function RootLayout({
