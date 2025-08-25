@@ -72,12 +72,11 @@ export const projectsData = [
     // link: "https://task-nest-willium.vercel.app/",
   },
   {
-    title: "To-Do List",
-    description:
-      "Boost productivity with a sleek MERN-powered to-do list app featuring real-time task management, intuitive UI, and persistent storage. Designed for speed, clarity, and ease of use.",
-    tags: ["Node.js", "Express.js", "MongoDB"],
+    title: "Miro Clone (Collaborative Whiteboard App)",
+    description: "Real-time collaborative whiteboard with Next.js and Convex.",
+    tags: [" Next.js, Convex, Clerk, Liveblocks, Tailwind CSS."],
     // imageUrl: DailyJournalImg,
-    link: "https://todo-list-czip.vercel.app/",
+    link: "https://github.com/aayat2002/miro-clone",
   },
   {
     title: "WeatherApp",
